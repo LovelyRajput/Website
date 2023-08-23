@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- to make website responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    
+    <title>LMA </title>
+    
+    <link rel="stylesheet" href="stylee.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="indexx.html"><img src="photos/LMA.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="indexx.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="Contact.html">CONTACT US</a></li>
+                    <li><a href="products.html">PRODUCTS</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>OUR PRODUCTS</h1>
+
+    </section>
+
+ <!-- Product -->
+ <div class="prod">
+    <div class="image">
+      <img src="photos/aboutpageimg.jpg" alt="Image 1">
+    </div>
+    <div class="image">
+      <img src="photos/silicone badge.jpg" alt="Image 2">
+    </div>
+    <div class="image">
+      <img src="photos/metaltrop3.jpg" alt="Image 3">
+    </div>
+    <div class="image">
+      <img src="photos/siliconekeychain3.jpg" alt="Image 4">
+    </div>
+    <div class="image">
+      <img src="photos/horse.webp" alt="Image 5">
+    </div>
+    <div class="image">
+      <img src="photos/m7.jpg" alt="Image 6">
+    </div>
+    <div class="image">
+        <img src="photos/woodentrop1.webp" alt="Image 6">
+      </div>
+      <div class="image">
+        <img src="photos/trophies.webp" alt="Image 6">
+      </div>
+  </div>
+  <div style="text-align: center; margin-top: 2rem;">
+    <div class="hed">
+    <h2>PRODUCTS CATALOGUE </h2>
+</div>
+    <a href="CAT 2022.pdf" class="download-button" download>Download PDF</a>
+  </div>
+  <div style="text-align: center; margin-top: 2rem;">
+    <div class="hed">
+    <h2>WOODEN GIFT ARTICLES</h2>
+</div>
+    <a href="WA Multipurpose Gift Product.pdf" class="download-button" download>Download PDF</a>
+  </div>
+ 
+
+
+
+<!-- ------fotter- -->
+<section class="footer">
+    <div class="row">
+        <div class="links">
+            <h2>Our Products</h2><br>
+            <ul>
+              <li><a href="products.html">Medals</a></li>
+              <li><a href="products.html">Acrylic Trophies </a></li>
+              <li><a href="products.html">Wooden Trophies </a></li>
+              <li><a href="products.html">Metal Trophies </a></li>
+              <li><a href="products.html">Metal Keychains</a></li>
+              <li><a href="products.html">Silicone keychains</a></li>
+              <li><a href="products.html">Ribbons</a></li>
+              <li><a href="products.html">Badges</a></li>
+              <li><a href="products.html">Momentos</a></li>
+              <li><a href="products.html">School Awards </a></li>
+            </ul>
+        </div>
+        <div class="about">
+            <h2>About Us</h2>
+            <ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                <li><a href="Privacy.html">Privacy Policy</a></li>
+                <li><a href="refund.html">Refund Policy</a></li>
+                <li><a href="refund.html">Terms & Conditions</a></li>
+            </ul>
+        </div>
+        <div class="company">
+            <h2>Lodhi Medals & Awards</h2>
+            <p>Lodhi Medals & Awards is a leading manufacturer and supplier of trophies, awards, Keychains,Medals, Momentos, Badges in Delhi NCR.<br><br> We offer a wide range of Trophies and Awards such as: Acrylic Trophies, Wooden Trophies, Metal Trophies, and Fiber Trophies etc.</p>
+        </div>
+      
+        <div class="contact">
+            <h2>Contact Info</h2>
+            <p><i class="fa fa-location-arrow"></i> Uttam Nagar, New Delhi- 110059</p>
+            <p><i class="fa fa-phone"></i>  +91-9212189285 <br> 8587060463 </p>
+            <p><i class="fa fa fa-envelope"></i> lodhiawards@gmail.com  </p>
+        </div>
+    </div>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+     </div>
+    <p class="copyright">Copyright © 2023. All Rights Reserved by Lodhi Medals & Awards</p>
+</div>
+   <div class="icn">
+     <p>Made with <i class="fa fa-heart-o"></i> by Lovely </p></div>
+</section>
+
+   <!-- Javascript for toggle menu -->
+    <script>
+        var navLinks= document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right= "0";
+        }
+        function hideMenu(){
+            navLinks.style.right= "-200px";
+        }
+    </script>
+
+
+</body>
+</html>
